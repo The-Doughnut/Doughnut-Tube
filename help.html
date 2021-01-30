@@ -4,24 +4,13 @@
 		<title>About</title>
 		<link rel="shortcut icon" href="Ficavi.gif">
 		<style>
-			body{
-				background-color: #FFFFFF;
-			}
 			h1{
 				font-family: arial;
 			}
 			h3{
 				font-family: arial;
-				padding-top: 2em;
-				padding-left: 2em;
 			}
 			p{
-				font-family: arial;
-				padding-left: 2em;
-				padding-right: 2em;
-				padding-bottom: 2em;
-			}
-			b{
 				font-family: arial;
 			}
 			a:link{
@@ -32,37 +21,59 @@
 				color: black;
 				text-decoration: none;
 			}
-			a:hover{
+			nav a:hover{
 				color: black;
 				text-decoration: none;
 				background-color: red;
 				color: white;
 			}
-			#wrapper{
-				width: 80%;
-				margin-left: auto;
-				margin-right: auto;
+			b{
+				font-family: arial;
+			}
+			small{
+				font-family: arial;
 			}
 			header{
 				background-color: #FFFFFF;
 			}
 			nav{
-				float: left; width: 150px;
-				background-color: grey;
+				float: left; 
+				width: 150px;
+				width: 200px;
+			}
+			nav a{
+				text-decoration: none;
+				padding-right: auto;
+			}
+			nav ul{
+				list-style-type: none;
+				margin-left: 0px;
+				margin-top: -8px;
+				padding: 0px;
 			}
 			main{
-				margin-left: 165px;
+				margin-left: 200px;
 				background-color: #CCCFFF;
+				padding: 10px;
+				margin-top: -8px;
 			}
 			footer{
-				margin-left: 165px;
 				background-color: #FFFCCC
+			}
+			#wrapper{
+				width: 80%;
+				margin-left: auto;
+				margin-right: auto;
+				background-color: #C4C4C4;
+			}
+			.navitems{
+				
 			}
 			#bruh{
 				float: right;
 			}
-			small{
-				font-family: arial;
+			#views{
+				margin-left: 9em;
 			}
 		</style>
 	</head>
@@ -71,8 +82,8 @@
 			<header>
 				<a href="index.html"><img src="logo.png" height="50px" title="Doughnut Tube"></a>Search: <input type="text" name="search" type="search" value="This thing doesn't work"></input><input type="submit" value="Go!">
 				<a href="login.html" id="bruh"><b>Log in or Sign Up</b></a>
+				<hr>
 			</header>
-			<hr>
 			<nav>
 				<a href="index.html"><b class="navitems">Home</b></a><br>
 				<a href="about.html"><b class="navitems">About</b></a><br>
@@ -95,7 +106,7 @@
 				<p>This website may not be rendered properly on a mobile device.</p>
 			</main>
 			<footer>
-				<small>&#169; 2021 Doughnut Tube</small>
+				<center><small>&#169; 2021 Doughnut Tube</small></center>
 			</footer>
 		</div>
 	</body>
